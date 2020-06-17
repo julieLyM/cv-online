@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HomeContainer } from './style/homeStyle';
+import { HomeContainer, HomePicture } from './style/homeStyle';
 import land from './style/image/land.png';
 import { About } from './About';
 import { Formation } from './Formation';
@@ -9,7 +9,7 @@ export default class Home extends Component {
   render() {
     return (
       <HomeContainer>
-        <img src={land} alt="" />
+        <HomePicture src={land} alt="" />
 
         <About />
         <Formation />

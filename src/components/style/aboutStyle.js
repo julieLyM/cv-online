@@ -7,18 +7,23 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   align-items: center;
   border-radius: 30px;
-  justify-content: space-between;
-  padding: 0 5%;
+  padding: 3%;
 `;
 
 export const AboutBloc = styled.div`
   background-color: white;
-  width: 40%;
-  margin: 10px;
+  width: 60%;
+  padding: 3%;
+
   border-radius: 30px;
-  padding: 2%;
+  @media (${device.laptop}) {
+    width: 95%;
+  }
   @media (${device.tablet}) {
-    width: 100%;
+    width: 90%;
+  }
+  @media (${device.mobileL}) {
+    width: 80%;
   }
 `;
 
@@ -27,6 +32,7 @@ export const AboutSubTitle = styled.p`
   text-transform: uppercase;
   text-align: center;
   color: ${GREEN};
+  font-weight: 900;
   @media (${device.tablet}) {
     font-size: 20px;
   }
@@ -39,19 +45,78 @@ export const AboutLittleTitle = styled.span`
   text-align: center;
   color: black;
   @media (${device.tablet}) {
-    font-size: 20px;
+    font-size: 16px;
+  }
+  @media (${device.mobileL}) {
+    font-size: 14px;
   }
 `;
 
-export const AboutSimpleText = styled.div`
+export const AboutSimpleText = styled.p`
   color: black;
   font-size: 20px;
-  padding: 5px 30px;
+  margin: 0;
+  padding: 0;
   @media (${device.tablet}) {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  @media (${device.mobileL}) {
+    font-size: 16px;
+  }
+  @media (${device.mobileS}) {
+    font-size: 14px;
   }
 `;
+
 export const AboutPoint = styled.span`
   color: white;
   font-size: 70px;
+`;
+
+export const AboutPicture = styled.img`
+  width: 130px;
+  height: 160px;
+
+  border-radius: 20px;
+  @media (${device.mobileL}) {
+    width: 80px;
+    height: 100px;
+  }
+`;
+
+export const AboutPersonalDiv = styled.div`
+  display: flex;
+  padding: 5%;
+  @media (${device.mobileL}) {
+    flex-direction: column;
+    text-align: center;
+  }
+`;
+
+export const AboutPersonalDivColPic = styled.div`
+  width: 30%;
+  @media (${device.mobileL}) {
+    align-self: center;
+  }
+`;
+
+export const AboutPersonalDivCol1 = styled.div`
+  width: 30%;
+  @media (${device.tablet}) {
+    width: 30%;
+  }
+  @media (${device.mobileL}) {
+    width: 100%;
+    margin-top: 10px;
+  }
+`;
+
+export const AboutPersonalDivCol2 = styled.div`
+  width: 40%;
+  @media (${device.tablet}) {
+    width: 40%;
+  }
+  @media (${device.mobileL}) {
+    width: 100%;
+  }
 `;

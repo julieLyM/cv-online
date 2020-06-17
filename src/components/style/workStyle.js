@@ -6,15 +6,16 @@ export const WorkContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   border-radius: 30px;
-  padding: 10%;
+  padding: 3%;
 `;
 
 export const WorkBloc = styled.div`
   flex: 1 1 250px;
   background-color: white;
   margin: 10px;
+  padding: 1%;
   color: ${GREEN};
-  height: 300px;
+  height: 350px;
   border-radius: 30px;
   text-align: center;
   a {
@@ -24,8 +25,7 @@ export const WorkBloc = styled.div`
     background-color: rgba(255, 255, 255, 0.6);
     color: green;
   }
-  @media (${device.mobileL}) {
-    padding: 2%;
+  @media (${device.tablet}) {
     width: 100%;
     height: 100%;
   }
@@ -37,8 +37,6 @@ export const WorkTitle = styled.p`
   text-align: center;
   font-weight: bold;
   color: ${DARK_GREEN};
-  margin: 0;
-  padding: 0;
 `;
 
 export const Point = styled.p`
@@ -51,4 +49,8 @@ export const Point = styled.p`
 
 export const Img = styled.img`
   width: 200px;
+  @media (${device.mobileL}) {
+    width: 100%;
+    height: 100%;
+  }
 `;

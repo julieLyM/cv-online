@@ -7,10 +7,13 @@ export const MenuContainer = styled.div`
   display: flex;
   padding: 10px;
   flex-direction: column;
-  min-height: 95%;
+  min-height: 97%;
+  max-height: 100%;
   justify-content: space-between;
   @media (${device.tablet}) {
     min-height: 100%;
+  }
+  @media (${device.mobileL}) {
   }
 `;
 
@@ -26,6 +29,10 @@ export const MenuPicture = styled.img`
   &:hover {
     color: green;
   }
+  @media (${device.mobileL}) {
+    width: 70px;
+    height: 80px;
+  }
 `;
 
 export const MenuBlocLink = styled.div`
@@ -40,18 +47,27 @@ export const MenuBlocLink = styled.div`
 
 export const GreenLink = styled(Link)`
   color: ${GREEN};
-  font-size: 26px;
-  padding: 10px;
+  font-size: 24px;
+  padding: 10px 0;
+  align-self: center;
+  text-transform: uppercase;
   &:hover {
     color: green;
+  }
+  @media (${device.mobileL}) {
+    font-size: 20px;
   }
 `;
 
 export const GreenLinkBottom = styled.a`
   color: ${GREEN};
-  font-size: 26px;
-  padding: 10px;
+  font-size: 24px;
+  padding: 10px 0;
+  text-transform: uppercase;
   &:hover {
     color: green;
+  }
+  @media (${device.mobileL}) {
+    font-size: 20px;
   }
 `;

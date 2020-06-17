@@ -15,7 +15,7 @@ export default class Menu extends Component {
     return (
       <div>
         <Link to="/">
-          <MenuPicture src={pic} />
+          <MenuPicture src={pic} alt="logo" />
         </Link>
         <MenuContainer>
           <MenuBlocLink>
@@ -25,11 +25,7 @@ export default class Menu extends Component {
           </MenuBlocLink>
 
           <MenuBlocLink>
-            <GreenLinkBottom
-              href={'mailto:julielyminh@gmail.com'}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <GreenLinkBottom target="_top" href="mailto:julielyminh@gmail.com">
               Email
             </GreenLinkBottom>
             <GreenLinkBottom href={'https://github.com/julieLyM'}>

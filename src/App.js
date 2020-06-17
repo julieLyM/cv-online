@@ -5,19 +5,20 @@ import Menu from './components/Menu';
 import { About } from './components/About';
 import { Formation } from './components/Formation';
 import { Work } from './components/Work';
+import { APPContainer } from './components/style/homeStyle';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <APPContainer>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/formation" component={Formation} />
           <Route path="/portfolio" component={Work} />
           <Menu />
-        </div>
+        </APPContainer>
       </Router>
     </div>
   );

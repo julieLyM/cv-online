@@ -6,9 +6,16 @@ import {
   AboutBloc,
   AboutSubTitle,
   AboutLittleTitle,
+  AboutPicture,
+  AboutPersonalDiv,
+  AboutPersonalDivColPic,
+  AboutPersonalDivCol1,
+  AboutPersonalDivCol2,
 } from './style/aboutStyle';
 
 import { Point } from './style/workStyle';
+
+import me from './style/image/me.jpg';
 
 export const About = () => {
   return (
@@ -19,12 +26,11 @@ export const About = () => {
           Hello, je suis Développeuse full-stack junior en reconversion
           professionnelle basé en region parisienne (77).
           <br />
-          J'ai fait le choix de changé de voie professionnelle car je voulais un
+          J'ai fais le choix de changé de voie professionnelle car je voulais un
           nouveau challenge dans ma vie. <br />
           J'ai décidé de choisir le développement car plus jeune je m'amusais
           déjà à faire de l'integration et des fonctionnalités avec mes amis. Je
-          n'ai jamais oublié cette envie de création et la fierté de construire
-          des sites.
+          n'ai jamais oublié cet hobby alors pourquoi pas en faire son nouveau métier... 
         </AboutSimpleText>
       </AboutBloc>
       <Point>...</Point>
@@ -37,43 +43,42 @@ export const About = () => {
           notamment sur React et NodeJs (express), j'ai également des
           compétences sur d'autre technologies comme angular et vueJs. J'aime
           également travailler sur du Devops comme Docker et CircleCi. Je suis
-          ouverte à apprendre d'autre technologies s'il le faut.
+          ouverte à apprendre d'autres langages, j'aime monter en compétences !
         </AboutSimpleText>
       </AboutBloc>
       <Point>...</Point>
 
       <AboutBloc>
         <AboutSubTitle> Pour plus d'informations</AboutSubTitle>
-        <div style={{ display: 'flex' }}>
-          <div>
-            <AboutSimpleText>
-              <AboutLittleTitle>Nom :</AboutLittleTitle> Ly-Minh{' '}
-            </AboutSimpleText>
+        <AboutPersonalDiv>
+          <AboutPersonalDivColPic>
+            <AboutPicture src={me} alt="me" />
+          </AboutPersonalDivColPic>
 
-            <AboutSimpleText>
-              <AboutLittleTitle>Prénom :</AboutLittleTitle> Julie{' '}
-            </AboutSimpleText>
+          <AboutPersonalDivCol1>
+            <AboutLittleTitle>Nom </AboutLittleTitle>
+            <AboutSimpleText>Ly-Minh</AboutSimpleText>
 
-            <AboutSimpleText>
-              <AboutLittleTitle>Mobilité :</AboutLittleTitle> Région Parisienne{' '}
-            </AboutSimpleText>
-          </div>
+            <AboutLittleTitle>Prénom </AboutLittleTitle>
+            <AboutSimpleText>Julie </AboutSimpleText>
 
-          <div>
-            <AboutSimpleText>
-              <AboutLittleTitle>Téléphone :</AboutLittleTitle> 06 50 00 07 03{' '}
-            </AboutSimpleText>
+            <AboutLittleTitle>Mobilité </AboutLittleTitle>
+            <AboutSimpleText>Région Parisienne </AboutSimpleText>
+          </AboutPersonalDivCol1>
 
-            <AboutSimpleText>
-              <AboutLittleTitle>Email :</AboutLittleTitle> julielyminh@gmail.com{' '}
-            </AboutSimpleText>
+          <AboutPersonalDivCol2>
+            <AboutLittleTitle>Tel </AboutLittleTitle>
+            <AboutSimpleText>0650000703</AboutSimpleText>
 
-            <AboutSimpleText>
-              <AboutLittleTitle>Discord :</AboutLittleTitle> julieeee#6560{' '}
-            </AboutSimpleText>
-          </div>
-        </div>
+            <AboutLittleTitle>Email </AboutLittleTitle>
+            <AboutSimpleText>julielyminh@gmail.com</AboutSimpleText>
+
+            <AboutLittleTitle>Discord </AboutLittleTitle>
+            <AboutSimpleText>julieeee#6560 </AboutSimpleText>
+          </AboutPersonalDivCol2>
+        </AboutPersonalDiv>
       </AboutBloc>
+
       <Point>...</Point>
     </AboutContainer>
   );

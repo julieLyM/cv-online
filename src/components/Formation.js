@@ -3,10 +3,10 @@ import {
   FormationContainer,
   FormationBloc,
   FormationDiv,
+  FormationText
 } from './style/formationStyle';
 
 import {
-  AboutSimpleText,
   AboutSubTitle,
   AboutLittleTitle,
 } from './style/aboutStyle';
@@ -19,7 +19,7 @@ export const Formation = () => {
       <FormationContainer>
         <FormationBloc>
           <AboutSubTitle> EXPÉRIENCE PROFESSIONNELLE</AboutSubTitle>
-          <AboutSimpleText>
+          <FormationText>
             <AboutLittleTitle>Octobre 2019 - mars 2020 </AboutLittleTitle>
             <p>
               Développeuse full-stack Javascript à STACKERINE, Sarcelles (95){' '}
@@ -45,9 +45,9 @@ export const Formation = () => {
               Plusieurs projets effectués dont une application interne de
               e-learning Stackerine (React / Node / Postgres)
             </p>
-          </AboutSimpleText>
+          </FormationText>
 
-          <AboutSimpleText>
+          <FormationText>
             <AboutLittleTitle>Février à juillet 2019 (6mois) </AboutLittleTitle>
             <p>
               Stage en tant que développeuse web full-stack à BLUEANCHOR.IO, à
@@ -68,8 +68,8 @@ export const Formation = () => {
             J'ai notamment travailler sur plusieurs projets clients comme
             l'application n'oublie jamais mais également un site interne
             BlueSchool.
-          </AboutSimpleText>
-          <AboutSimpleText>
+          </FormationText>
+          <FormationText>
             <AboutLittleTitle>Août 2010 à août 2018 (8ans) </AboutLittleTitle>
             <p>
               {' '}
@@ -77,13 +77,13 @@ export const Formation = () => {
               Service commerciale et enregistrement des passagers pour Singapour
               Airlines, Malaysia Airlines, Icelandair et Kuwait Airways.
             </p>
-          </AboutSimpleText>
-          <AboutSimpleText>
+          </FormationText>
+          <FormationText>
             <AboutLittleTitle>
               Janvier 2008 à janvier 2009 (1an)
             </AboutLittleTitle>
             <p> Fille au pair avec Interexchange à Phoenix aux Etats-Unis.</p>
-          </AboutSimpleText>
+          </FormationText>
         </FormationBloc>
 
         <div style={{ width: '10%' }}></div>
@@ -91,7 +91,7 @@ export const Formation = () => {
         <FormationDiv>
           <AboutSubTitle>FORMATION</AboutSubTitle>
 
-          <AboutSimpleText>
+          <FormationText>
             <AboutLittleTitle>
               Septembre 2018 à février 2019 (5mois) Wild Code School à Paris
             </AboutLittleTitle>
@@ -111,23 +111,23 @@ export const Formation = () => {
                 entreprises) avec Mathias Savary (React/Node/MySQL)
               </li>
             </div>
-          </AboutSimpleText>
+          </FormationText>
 
-          <AboutSimpleText>
+          <FormationText>
             <AboutLittleTitle> 2010 </AboutLittleTitle>{' '}
             <p>
               Mention Complémentaire Accueil dans les transports (BAC+1) au CFA
               Camas, Tremblay en France (93)
             </p>
-          </AboutSimpleText>
+          </FormationText>
 
-          <AboutSimpleText>
+          <FormationText>
             <AboutLittleTitle> 2007 </AboutLittleTitle>{' '}
             <p>
               Niveau BTS assistant de gestion PME-PMI au lycée Carcado-Saisseval
               à Paris (6)
             </p>
-          </AboutSimpleText>
+          </FormationText>
         </FormationDiv>
       </FormationContainer>
       <Point>...</Point>
