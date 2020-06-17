@@ -48,11 +48,11 @@ export const Work = () => {
         <WorkBloc>
           <h2>Application The Movie Database</h2>
           <a href="https://themovie-database-app.herokuapp.com/">
-            <Img src={movieDB} />
             <AboutSimpleText>
               Application sur React / Node (Express) / TypeScript Heroku:
               CircleCi
             </AboutSimpleText>
+            <Img src={movieDB} />
           </a>
         </WorkBloc>
       </WorkContainer>

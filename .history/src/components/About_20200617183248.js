@@ -65,7 +65,7 @@ export const About = () => {
             </AboutSimpleText>
 
             <AboutSimpleText>
-              <AboutLittleTitle>Email :</AboutLittleTitle> julielyminh@gmail.com{' '}
+              <AboutLittleTitle>Email</AboutLittleTitle> julielyminh@gmail.com{' '}
             </AboutSimpleText>
 
             <AboutSimpleText>

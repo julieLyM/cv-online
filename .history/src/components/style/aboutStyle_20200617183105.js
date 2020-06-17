@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { GREEN } from './colors';
-import { device } from './mediaQuerries';
 
 export const AboutContainer = styled.div`
   display: flex;
@@ -17,9 +16,7 @@ export const AboutBloc = styled.div`
   margin: 10px;
   border-radius: 30px;
   padding: 2%;
-  @media (${device.tablet}) {
-    width: 100%;
-  }
+  https://julielyminh.netlify.app/
 `;
 
 export const AboutSubTitle = styled.p`
@@ -27,29 +24,20 @@ export const AboutSubTitle = styled.p`
   text-transform: uppercase;
   text-align: center;
   color: ${GREEN};
-  @media (${device.tablet}) {
-    font-size: 20px;
-  }
 `;
 
 export const AboutLittleTitle = styled.span`
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
   color: black;
-  @media (${device.tablet}) {
-    font-size: 20px;
-  }
 `;
 
 export const AboutSimpleText = styled.div`
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   padding: 5px 30px;
-  @media (${device.tablet}) {
-    font-size: 18px;
-  }
 `;
 export const AboutPoint = styled.span`
   color: white;

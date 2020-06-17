@@ -28,27 +28,27 @@ export const AboutSubTitle = styled.p`
   text-align: center;
   color: ${GREEN};
   @media (${device.tablet}) {
-    font-size: 20px;
+    font-size: 24px;
   }
 `;
 
 export const AboutLittleTitle = styled.span`
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
   color: black;
   @media (${device.tablet}) {
-    font-size: 20px;
+    font-size: 22px;
   }
 `;
 
 export const AboutSimpleText = styled.div`
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   padding: 5px 30px;
   @media (${device.tablet}) {
-    font-size: 18px;
+    font-size: 20px;
   }
 `;
 export const AboutPoint = styled.span`

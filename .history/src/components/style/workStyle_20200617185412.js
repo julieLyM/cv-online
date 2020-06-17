@@ -25,9 +25,10 @@ export const WorkBloc = styled.div`
     color: green;
   }
   @media (${device.mobileL}) {
-    padding: 2%;
+    padding: 0;
     width: 100%;
-    height: 100%;
+    height: 300px;
+
   }
 `;
 

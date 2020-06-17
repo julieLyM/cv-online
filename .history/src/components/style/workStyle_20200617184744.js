@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { DARK_GREEN, GREEN } from './colors';
-import { device } from './mediaQuerries';
 
 export const WorkContainer = styled.div`
   display: flex;
@@ -23,11 +22,6 @@ export const WorkBloc = styled.div`
   &:hover {
     background-color: rgba(255, 255, 255, 0.6);
     color: green;
-  }
-  @media (${device.mobileL}) {
-    padding: 2%;
-    width: 100%;
-    height: 100%;
   }
 `;
 

@@ -25,7 +25,7 @@ export const Formation = () => {
               Développeuse full-stack Javascript à STACKERINE, Sarcelles (95){' '}
             </p>
             <div>
-              Formation interne :
+              <p></p>
               <ul>
                 <li>Javascript (codewars)</li>
                 <li>React / hooks / Redux / styled-components</li>
@@ -46,7 +46,6 @@ export const Formation = () => {
               e-learning Stackerine (React / Node / Postgres)
             </p>
           </AboutSimpleText>
-
           <AboutSimpleText>
             <AboutLittleTitle>Février à juillet 2019 (6mois) </AboutLittleTitle>
             <p>
@@ -95,7 +94,8 @@ export const Formation = () => {
             <AboutLittleTitle>
               Septembre 2018 à février 2019 (5mois) Wild Code School à Paris
             </AboutLittleTitle>
-            <div>
+            <p>
+              {' '}
               Formation Full stack développeur en 5 mois, apprentissage :
               <ul>
                 <li>HTML / CSS</li>
@@ -110,7 +110,7 @@ export const Formation = () => {
                 Le Conteur Digital (blog de récit de marques pour les
                 entreprises) avec Mathias Savary (React/Node/MySQL)
               </li>
-            </div>
+            </p>
           </AboutSimpleText>
 
           <AboutSimpleText>

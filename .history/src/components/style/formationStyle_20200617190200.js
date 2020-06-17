@@ -30,6 +30,6 @@ export const FormationDiv = styled.div`
   border-radius: 30px;
   height: 50%;
   @media (${device.tablet}) {
-    width: 100%;
+    width: 80%;
   }
 `;

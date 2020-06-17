@@ -14,8 +14,8 @@ export const Work = () => {
       <WorkContainer>
         <WorkBloc>
           <h2>Application Cat Mash</h2>
+          <Img src={cat} />
           <a href="https://catmash-application.herokuapp.com/">
-            <Img src={cat} />
             <AboutSimpleText>
               choisir son chat preferé selon les photos proposées (React Hooks /
               styled-components / NodeJs(Express) / MongoDB )
@@ -26,33 +26,33 @@ export const Work = () => {
         <WorkBloc>
           <h2>Application Harry Potter</h2>
           <a href="https://app-harrypotter.herokuapp.com/">
-            <Img src={HP} />
             <AboutSimpleText>
               Presentation des personnages de harry potter et un quizz (React
               Hooks / styled-components / NodeJs(Express) )
             </AboutSimpleText>
+            <Img src={HP} />
           </a>
         </WorkBloc>
 
         <WorkBloc>
           <h2>Application Marvel</h2>
           <a href="https://marvel-reacthooks.netlify.app/">
-            <Img src={marvel} />
             <AboutSimpleText>
               Presentation des personnages Marvel (React Hooks /
               styled-components / marvel developers api)
             </AboutSimpleText>
+            <Img src={marvel} />
           </a>
         </WorkBloc>
 
         <WorkBloc>
           <h2>Application The Movie Database</h2>
           <a href="https://themovie-database-app.herokuapp.com/">
-            <Img src={movieDB} />
             <AboutSimpleText>
               Application sur React / Node (Express) / TypeScript Heroku:
               CircleCi
             </AboutSimpleText>
+            <Img src={movieDB} />
           </a>
         </WorkBloc>
       </WorkContainer>

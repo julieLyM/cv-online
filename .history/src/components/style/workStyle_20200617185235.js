@@ -24,11 +24,7 @@ export const WorkBloc = styled.div`
     background-color: rgba(255, 255, 255, 0.6);
     color: green;
   }
-  @media (${device.mobileL}) {
-    padding: 2%;
-    width: 100%;
-    height: 100%;
-  }
+  
 `;
 
 export const WorkTitle = styled.p`

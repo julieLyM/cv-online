@@ -28,7 +28,7 @@ export const AboutSubTitle = styled.p`
   text-align: center;
   color: ${GREEN};
   @media (${device.tablet}) {
-    font-size: 20px;
+    font-size: 2px;
   }
 `;
 

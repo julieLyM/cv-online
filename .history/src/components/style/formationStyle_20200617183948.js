@@ -17,10 +17,6 @@ export const FormationBloc = styled.div`
   width: 50%;
   margin: 0 10px;
   border-radius: 30px;
-  @media (${device.tablet}) {
-    width: 100%;
-    margin: 5% 0;
-  }
 `;
 
 export const FormationDiv = styled.div`
@@ -29,7 +25,4 @@ export const FormationDiv = styled.div`
   margin: 0 10px;
   border-radius: 30px;
   height: 50%;
-  @media (${device.tablet}) {
-    width: 100%;
-  }
 `;

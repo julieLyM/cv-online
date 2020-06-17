@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { GREEN } from './colors';
 import { Link } from 'react-router-dom';
-import { device } from './mediaQuerries';
 
 export const MenuContainer = styled.div`
   display: flex;
