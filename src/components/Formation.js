@@ -3,13 +3,10 @@ import {
   FormationContainer,
   FormationBloc,
   FormationDiv,
-  FormationText
+  FormationText,
 } from './style/formationStyle';
 
-import {
-  AboutSubTitle,
-  AboutLittleTitle,
-} from './style/aboutStyle';
+import { AboutSubTitle, AboutLittleTitle } from './style/aboutStyle';
 
 import { Point } from './style/workStyle';
 
@@ -20,9 +17,13 @@ export const Formation = () => {
         <FormationBloc>
           <AboutSubTitle> EXPÉRIENCE PROFESSIONNELLE</AboutSubTitle>
           <FormationText>
-            <AboutLittleTitle>Octobre 2019 - mars 2020 </AboutLittleTitle>
+            <AboutLittleTitle>
+              Octobre 2019 - mars 2020 (6 mois)
+            </AboutLittleTitle>
             <p>
-              Développeuse full-stack Javascript à STACKERINE, Sarcelles (95){' '}
+              Développeuse full-stack Javascript à{' '}
+              <a href="https://www.stackerine.com/">STACKERINE</a>, Sarcelles
+              (95){' '}
             </p>
             <div>
               Formation interne :
@@ -66,8 +67,9 @@ export const Formation = () => {
               <li>Environnement Mac</li>
             </ul>
             J'ai notamment travailler sur plusieurs projets clients comme
-            l'application n'oublie jamais mais également un site interne
-            BlueSchool.
+            l'application{' '}
+            <a href="https://noubliejamais.fr/application/">N'oublie Jamais</a>{' '}
+            mais également un site interne BlueSchool.
           </FormationText>
           <FormationText>
             <AboutLittleTitle>Août 2010 à août 2018 (8ans) </AboutLittleTitle>
@@ -93,7 +95,11 @@ export const Formation = () => {
 
           <FormationText>
             <AboutLittleTitle>
-              Septembre 2018 à février 2019 (5mois) Wild Code School à Paris
+              Septembre 2018 à février 2019 (5mois){' '}
+              <a href="https://www.wildcodeschool.com/fr-FR">
+                Wild Code School
+              </a>
+               à Paris
             </AboutLittleTitle>
             <div>
               Formation Full stack développeur en 5 mois, apprentissage :

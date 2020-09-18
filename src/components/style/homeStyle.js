@@ -17,7 +17,8 @@ export const HomeContainer = styled.div`
   align-items: center;
   color: ${GREEN};
   @media (${device.mobileL}) {
-  
+  margin: 0;
+  padding: 0;
   }
 `;
 
@@ -34,7 +35,7 @@ export const HomeSubtitle = styled.p`
 
 export const HomePicture = styled.img`
   @media (${device.mobileL}) {
-    width: 300px;
+    width: 280px;
     height: 350px;
   }
 `;

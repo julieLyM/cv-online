@@ -11,6 +11,8 @@ import {
   AboutPersonalDivColPic,
   AboutPersonalDivCol1,
   AboutPersonalDivCol2,
+  AboutText,
+  AboutPoint,
 } from './style/aboutStyle';
 
 import { Point } from './style/workStyle';
@@ -23,30 +25,31 @@ export const About = () => {
       <AboutBloc>
         <AboutSubTitle>About</AboutSubTitle>
         <AboutSimpleText>
-          Hello, je suis Développeuse full-stack junior en reconversion
-          professionnelle basé en region parisienne (77).
-          <br />
+          Hello, je suis Développeuse full-stack junior en
+          reconversion professionnelle basée en région parisienne (77) mais
+          également en Loire-Atlantique (44).
+          {/* <br />
           J'ai fais le choix de changé de voie professionnelle car je voulais un
           nouveau challenge dans ma vie. <br />
           J'ai décidé de choisir le développement car plus jeune je m'amusais
           déjà à faire de l'integration et des fonctionnalités avec mes amis. Je
-          n'ai jamais oublié cet hobby alors pourquoi pas en faire son nouveau métier... 
+          n'ai jamais oublié cet hobby alors pourquoi pas en faire son nouveau métier...  */}
         </AboutSimpleText>
-      </AboutBloc>
-      <Point>...</Point>
+        <AboutPoint>...</AboutPoint>
 
-      <AboutBloc>
         <AboutSubTitle> Ce que je sais faire</AboutSubTitle>
         <AboutSimpleText>
-          Cela fait depuis septembre 2018 que je suis dans le développement
-          web,je suis spécialisée sur le langage javascript, je travaille
-          notamment sur React et NodeJs (express), j'ai également des
-          compétences sur d'autre technologies comme angular et vueJs. J'aime
-          également travailler sur du Devops comme Docker et CircleCi. Je suis
-          ouverte à apprendre d'autres langages, j'aime monter en compétences !
+          Cela fait depuis 2 ans que j'ai mis les pieds dans le développement
+          web, j'ai commencé par de l'intégration HTML5 et CSS3, puis je me suis
+          spécialisée sur le langage JavaScript. Je travaille notamment sur les
+          librairies ReactJs et NodeJs (express), j'ai également des
+          connaissances sur Angular6 et VueJs. J'ai des compétences sur le
+          Devops, je sais déployer mes prods avec Docker via CircleCi sur Heroku
+          ou Netlify.
         </AboutSimpleText>
       </AboutBloc>
       <Point>...</Point>
+      <p></p>
 
       <AboutBloc>
         <AboutSubTitle> Pour plus d'informations</AboutSubTitle>
@@ -57,24 +60,23 @@ export const About = () => {
 
           <AboutPersonalDivCol1>
             <AboutLittleTitle>Nom </AboutLittleTitle>
-            <AboutSimpleText>Ly-Minh</AboutSimpleText>
-
+            <AboutText>Ly-Minh</AboutText>
             <AboutLittleTitle>Prénom </AboutLittleTitle>
-            <AboutSimpleText>Julie </AboutSimpleText>
-
+            <AboutText>Julie </AboutText>
             <AboutLittleTitle>Mobilité </AboutLittleTitle>
-            <AboutSimpleText>Région Parisienne </AboutSimpleText>
+            <AboutText>Région Parisienne /</AboutText>{' '}
+            <AboutText>Nantaise </AboutText>
           </AboutPersonalDivCol1>
 
           <AboutPersonalDivCol2>
             <AboutLittleTitle>Tel </AboutLittleTitle>
-            <AboutSimpleText>0650000703</AboutSimpleText>
+            <AboutText>0650000703</AboutText>
 
             <AboutLittleTitle>Email </AboutLittleTitle>
-            <AboutSimpleText>julielyminh@gmail.com</AboutSimpleText>
+            <AboutText>julielyminh@gmail.com</AboutText>
 
             <AboutLittleTitle>Discord </AboutLittleTitle>
-            <AboutSimpleText>julieeee#6560 </AboutSimpleText>
+            <AboutText>julieeee#6560 </AboutText>
           </AboutPersonalDivCol2>
         </AboutPersonalDiv>
       </AboutBloc>

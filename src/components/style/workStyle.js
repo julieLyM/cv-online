@@ -44,7 +44,16 @@ export const Point = styled.p`
   font-size: 70px;
   text-align: center;
   margin: 0;
-  padding: 20px 0;
+  padding: 10px 0;
+  @media (${device.tablet}) {
+    font-size: 46px;
+  }
+  @media (${device.mobileL}) {
+    font-size: 46px;
+  }
+  @media (${device.mobileS}) {
+    font-size: 46px;
+  }
 `;
 
 export const Img = styled.img`

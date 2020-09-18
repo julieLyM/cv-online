@@ -55,8 +55,9 @@ export const AboutLittleTitle = styled.span`
 export const AboutSimpleText = styled.p`
   color: black;
   font-size: 20px;
-  margin: 0;
+  margin: 10px;
   padding: 0;
+  text-align: center;
   @media (${device.tablet}) {
     font-size: 16px;
   }
@@ -68,9 +69,25 @@ export const AboutSimpleText = styled.p`
   }
 `;
 
-export const AboutPoint = styled.span`
-  color: white;
-  font-size: 70px;
+export const AboutText = styled.p`
+  font-size: 20px;
+  @media (${device.tablet}) {
+    font-size: 16px;
+  }
+  @media (${device.mobileL}) {
+    font-size: 16px;
+  }
+  @media (${device.mobileS}) {
+    font-size: 14px;
+  }
+`;
+
+export const AboutPoint = styled.p`
+  font-size: 50px;
+  text-align: center;
+  @media (${device.tablet}) {
+    font-size: 30px;
+  }
 `;
 
 export const AboutPicture = styled.img`
@@ -113,8 +130,10 @@ export const AboutPersonalDivCol1 = styled.div`
 
 export const AboutPersonalDivCol2 = styled.div`
   width: 40%;
+  margin-left: 20px;
   @media (${device.tablet}) {
     width: 40%;
+    margin-left: 0;
   }
   @media (${device.mobileL}) {
     width: 100%;

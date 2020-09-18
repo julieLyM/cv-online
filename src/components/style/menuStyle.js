@@ -12,8 +12,8 @@ export const MenuContainer = styled.div`
   justify-content: space-between;
   @media (${device.tablet}) {
     min-height: 100%;
-  }
-  @media (${device.mobileL}) {
+    padding: 0;
+    margin: 0;
   }
 `;
 
