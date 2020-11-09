@@ -18,7 +18,7 @@ export const Formation = () => {
           <AboutSubTitle> EXPÉRIENCE PROFESSIONNELLE</AboutSubTitle>
           <FormationText>
             <AboutLittleTitle>
-              Octobre 2019 - mars 2020 (6 mois)
+              Octobre 2019 - mars 2020 (5 mois)
             </AboutLittleTitle>
             <p>
               Développeuse full-stack Javascript à{' '}

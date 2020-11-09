@@ -27,12 +27,6 @@ export const About = () => {
           Hello, je suis Développeuse full-stack junior en reconversion
           professionnelle basée en région parisienne (77) mais également en
           Loire-Atlantique (44).
-          {/* <br />
-          J'ai fais le choix de changé de voie professionnelle car je voulais un
-          nouveau challenge dans ma vie. <br />
-          J'ai décidé de choisir le développement car plus jeune je m'amusais
-          déjà à faire de l'integration et des fonctionnalités avec mes amis. Je
-          n'ai jamais oublié cet hobby alors pourquoi pas en faire son nouveau métier...  */}
         </AboutSimpleText>
 
         <AboutSimpleText>
