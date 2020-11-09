@@ -12,7 +12,6 @@ import {
   AboutPersonalDivCol1,
   AboutPersonalDivCol2,
   AboutText,
-  AboutPoint,
 } from './style/aboutStyle';
 
 import { Point } from './style/workStyle';
@@ -25,9 +24,9 @@ export const About = () => {
       <AboutBloc>
         <AboutSubTitle>About</AboutSubTitle>
         <AboutSimpleText>
-          Hello, je suis Développeuse full-stack junior en
-          reconversion professionnelle basée en région parisienne (77) mais
-          également en Loire-Atlantique (44).
+          Hello, je suis Développeuse full-stack junior en reconversion
+          professionnelle basée en région parisienne (77) mais également en
+          Loire-Atlantique (44).
           {/* <br />
           J'ai fais le choix de changé de voie professionnelle car je voulais un
           nouveau challenge dans ma vie. <br />
@@ -35,7 +34,7 @@ export const About = () => {
           déjà à faire de l'integration et des fonctionnalités avec mes amis. Je
           n'ai jamais oublié cet hobby alors pourquoi pas en faire son nouveau métier...  */}
         </AboutSimpleText>
-   
+
         <AboutSimpleText>
           Cela fait depuis 2 ans que j'ai mis les pieds dans le développement
           web, j'ai commencé par de l'intégration HTML5 et CSS3, puis je me suis
