@@ -35,17 +35,12 @@ export const About = () => {
           déjà à faire de l'integration et des fonctionnalités avec mes amis. Je
           n'ai jamais oublié cet hobby alors pourquoi pas en faire son nouveau métier...  */}
         </AboutSimpleText>
-        <AboutPoint>...</AboutPoint>
-
-        <AboutSubTitle> Ce que je sais faire</AboutSubTitle>
+   
         <AboutSimpleText>
           Cela fait depuis 2 ans que j'ai mis les pieds dans le développement
           web, j'ai commencé par de l'intégration HTML5 et CSS3, puis je me suis
           spécialisée sur le langage JavaScript. Je travaille notamment sur les
-          librairies ReactJs et NodeJs (express), j'ai également des
-          connaissances sur Angular6 et VueJs. J'ai des compétences sur le
-          Devops, je sais déployer mes prods avec Docker via CircleCi sur Heroku
-          ou Netlify.
+          librairies ReactJs et NodeJs (express).
         </AboutSimpleText>
       </AboutBloc>
       <Point>...</Point>
