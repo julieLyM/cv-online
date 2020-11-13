@@ -9,6 +9,7 @@ import {
 } from './style/menuStyle';
 
 import pic from './style/image/pic.png';
+import cv from './style/image/cv-julielyminh.pdf';
 
 export default class Menu extends Component {
   render() {
@@ -28,11 +29,18 @@ export default class Menu extends Component {
             <GreenLinkBottom target="_top" href="mailto:julielyminh@gmail.com">
               Email
             </GreenLinkBottom>
-            <GreenLinkBottom href={'https://github.com/julieLyM'}>
+            <GreenLinkBottom target="_top" href={cv}>
+              CV
+            </GreenLinkBottom>
+            <GreenLinkBottom
+              href={'https://github.com/julieLyM'}
+              target="_blank"
+            >
               Github
             </GreenLinkBottom>
             <GreenLinkBottom
               href={'https://www.linkedin.com/in/julie-ly-minh-324212171/'}
+              target="_blank"
             >
               LinkedIn
             </GreenLinkBottom>

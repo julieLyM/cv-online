@@ -14,7 +14,11 @@ export const Work = () => {
       <WorkContainer>
         <WorkBloc>
           <AboutSubTitle>Cat Mash</AboutSubTitle>
-          <a href="https://catmash-application.herokuapp.com/">
+          <a
+            href="https://catmash-application.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Img src={cat} />
             <AboutSimpleText>
               Choisir son chat preferé selon les photos proposées <br />
@@ -25,7 +29,11 @@ export const Work = () => {
 
         <WorkBloc>
           <AboutSubTitle>Harry Potter</AboutSubTitle>
-          <a href="https://app-harrypotter.herokuapp.com/">
+          <a
+            href="https://app-harrypotter.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Img src={HP} />
             <AboutSimpleText>
               Presentation des personnages de harry potter et un quizz <br />
@@ -36,7 +44,11 @@ export const Work = () => {
 
         <WorkBloc>
           <AboutSubTitle>Marvel</AboutSubTitle>
-          <a href="https://marvel-reacthooks.netlify.app/">
+          <a
+            href="https://marvel-reacthooks.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Img src={marvel} />
             <AboutSimpleText>
               Presentation des personnages Marvel <br />
@@ -47,7 +59,11 @@ export const Work = () => {
 
         <WorkBloc>
           <AboutSubTitle>The Movie Database</AboutSubTitle>
-          <a href="https://themovie-database-app.herokuapp.com/">
+          <a
+            href="https://themovie-database-app.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Img src={movieDB} />
             <AboutSimpleText>
               Rechercher un film d'actualité

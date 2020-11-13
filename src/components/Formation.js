@@ -22,8 +22,10 @@ export const Formation = () => {
             </AboutLittleTitle>
             <p>
               Développeuse full-stack Javascript à{' '}
-              <a href="https://www.stackerine.com/">STACKERINE</a>, Sarcelles
-              (95){' '}
+              <a href="https://www.stackerine.com/" target="_blank">
+                STACKERINE
+              </a>
+              , Sarcelles (95){' '}
             </p>
             <div>
               Formation interne :
@@ -68,7 +70,9 @@ export const Formation = () => {
             </ul>
             J'ai notamment travailler sur plusieurs projets clients comme
             l'application{' '}
-            <a href="https://noubliejamais.fr/application/">N'oublie Jamais</a>{' '}
+            <a href="https://noubliejamais.fr/application/" target="_blank">
+              N'oublie Jamais
+            </a>{' '}
             mais également un site interne BlueSchool.
           </FormationText>
           <FormationText>
@@ -95,8 +99,29 @@ export const Formation = () => {
 
           <FormationText>
             <AboutLittleTitle>
-              Septembre 2018 à février 2019 (5mois){' '}
-              <a href="https://www.wildcodeschool.com/fr-FR">
+              Novembre 2020 à février 2021 (4 mois)<br></br>
+              <a href="https://www.wf3.fr" target="_blank">
+                WebForce3
+              </a>{' '}
+              avec Social Builder  à Paris 18
+            </AboutLittleTitle>
+            <div>
+              Formation Full stack développeur en 4 mois, preparation du "Titre
+              de developpeur web et mobile" (RNCP Bac+2), apprentissage :
+              <ul>
+                <li>HTML / CSS</li>
+                <li>Javascript (Angular)</li>
+                <li>Wordpress</li>
+                <li>PHP (Symphony et Laravel)</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+          </FormationText>
+
+          <FormationText>
+            <AboutLittleTitle>
+              Septembre 2018 à février 2019 (5mois)<br></br>
+              <a href="https://www.wildcodeschool.com/fr-FR" target="_blank">
                 Wild Code School
               </a>
                à Paris
