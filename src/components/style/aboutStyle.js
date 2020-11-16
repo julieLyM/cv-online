@@ -23,7 +23,7 @@ export const AboutBloc = styled.div`
     width: 90%;
   }
   @media (${device.mobileL}) {
-    width: 80%;
+    width: 85%;
   }
 `;
 

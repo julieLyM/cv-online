@@ -3,6 +3,10 @@ import { GREEN } from './colors';
 import { Link } from 'react-router-dom';
 import { device } from './mediaQuerries';
 
+
+export const MenuBody = styled.div`
+`;
+
 export const MenuContainer = styled.div`
   display: flex;
   padding: 10px;
@@ -24,8 +28,8 @@ export const MenuTitle = styled.p`
 `;
 
 export const MenuPicture = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 5vw;
+  height: 5vw;
   &:hover {
     color: green;
   }

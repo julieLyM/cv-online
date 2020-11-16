@@ -22,7 +22,7 @@ export const About = () => {
   return (
     <AboutContainer>
       <AboutBloc>
-        <AboutSubTitle>About</AboutSubTitle>
+        <AboutSubTitle>A propos</AboutSubTitle>
         <AboutSimpleText>
           Hello, je suis Développeuse full-stack junior en reconversion
           professionnelle basée en région parisienne (77) mais également en
@@ -48,7 +48,7 @@ export const About = () => {
 
           <AboutPersonalDivCol1>
             <AboutLittleTitle>Nom </AboutLittleTitle>
-            <AboutText>Ly-Minh</AboutText>
+            <AboutText>LY-MINH</AboutText>
             <AboutLittleTitle>Prénom </AboutLittleTitle>
             <AboutText>Julie </AboutText>
             <AboutLittleTitle>Mobilité </AboutLittleTitle>
@@ -58,7 +58,7 @@ export const About = () => {
 
           <AboutPersonalDivCol2>
             <AboutLittleTitle>Tel </AboutLittleTitle>
-            <AboutText>0650000703</AboutText>
+            <AboutText>06-50-00-07-03</AboutText>
 
             <AboutLittleTitle>Email </AboutLittleTitle>
             <AboutText>julielyminh@gmail.com</AboutText>

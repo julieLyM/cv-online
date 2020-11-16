@@ -4,6 +4,7 @@ import {
   FormationBloc,
   FormationDiv,
   FormationText,
+  FormatoinLi
 } from './style/formationStyle';
 
 import { AboutSubTitle, AboutLittleTitle } from './style/aboutStyle';
@@ -18,11 +19,11 @@ export const Formation = () => {
           <AboutSubTitle> EXPÉRIENCE PROFESSIONNELLE</AboutSubTitle>
           <FormationText>
             <AboutLittleTitle>
-              Octobre 2019 - mars 2020 (5 mois)
+              Octobre 2019 - mars 2020
             </AboutLittleTitle>
             <p>
               Développeuse full-stack Javascript à{' '}
-              <a href="https://www.stackerine.com/" target="_blank">
+              <a href="https://www.stackerine.com/" target="_blank" rel="noopener noreferrer">
                 STACKERINE
               </a>
               , Sarcelles (95){' '}
@@ -30,65 +31,43 @@ export const Formation = () => {
             <div>
               Formation interne :
               <ul>
-                <li>Javascript (codewars)</li>
+                <FormatoinLi>Front-end : </FormatoinLi>
+                <li> Javascript</li>
                 <li>React / hooks / Redux / styled-components</li>
                 <li>VueJs</li>
                 <li>TypeScript</li>
+                <br></br>
+                <FormatoinLi>Back-end : </FormatoinLi>
                 <li>NodeJs (express)</li>
                 <li>Postgres</li>
                 <li>MongoDB</li>
                 <li>SQL</li>
-                <li>GraphQL & Appollo</li>
-                <li>DevOps : Docker / circleCI</li>
-                <li>Test unitaire : Mocha</li>
-                <li>Github / GitLab</li>
+                <li>GraphQL & Appollo</li><br></br>
+                <FormatoinLi>DevOps : </FormatoinLi>
+                <li>Docker / circleCI</li>
               </ul>
             </div>
-            <p>
-              Plusieurs projets effectués dont une application interne de
-              e-learning Stackerine (React / Node / Postgres)
-            </p>
           </FormationText>
 
           <FormationText>
-            <AboutLittleTitle>Février à juillet 2019 (6mois) </AboutLittleTitle>
+            <AboutLittleTitle>Février à juillet 2019</AboutLittleTitle>
             <p>
-              Stage en tant que développeuse web full-stack à BLUEANCHOR.IO, à
+              Stage de 6 mois en tant que développeuse web full-stack à BLUEANCHOR.IO, à
               Paris 19ème.
             </p>
             <ul>
-              <li>
-                Création et développement d'application sur Angular 6/7 et Ionic
-                3/4
-              </li>
-              <li>
-                Réalisation de base de données NoSql avec NestJs et utilisation
-                de MongoDB{' '}
-              </li>
-              <li>Méthode Agile appliqué</li>
-              <li>Environnement Mac</li>
+              <FormatoinLi>
+                Front-end :              
+              </FormatoinLi>
+               <li>Angular 6/7 & Ionic 3/4</li> 
+              <FormatoinLi>
+                Back-end :               
+              </FormatoinLi>
+                <li>NestJs & MongoDB</li>
             </ul>
-            J'ai notamment travailler sur plusieurs projets clients comme
-            l'application{' '}
-            <a href="https://noubliejamais.fr/application/" target="_blank">
+            Projet client : <a href="https://noubliejamais.fr/application/" target="_blank" rel="noopener noreferrer">
               N'oublie Jamais
             </a>{' '}
-            mais également un site interne BlueSchool.
-          </FormationText>
-          <FormationText>
-            <AboutLittleTitle>Août 2010 à août 2018 (8ans) </AboutLittleTitle>
-            <p>
-              {' '}
-              Agent d'escale à Alyzia ARC1 à Roissy Charles de Gaulle (95)
-              Service commerciale et enregistrement des passagers pour Singapour
-              Airlines, Malaysia Airlines, Icelandair et Kuwait Airways.
-            </p>
-          </FormationText>
-          <FormationText>
-            <AboutLittleTitle>
-              Janvier 2008 à janvier 2009 (1an)
-            </AboutLittleTitle>
-            <p> Fille au pair avec Interexchange à Phoenix aux Etats-Unis.</p>
           </FormationText>
         </FormationBloc>
 
@@ -99,14 +78,14 @@ export const Formation = () => {
 
           <FormationText>
             <AboutLittleTitle>
-              Novembre 2020 à février 2021 (4 mois)<br></br>
-              <a href="https://www.wf3.fr" target="_blank">
+              Novembre 2020 à aujourd'hui<br></br>
+              <a href="https://www.wf3.fr" target="_blank" rel="noopener noreferrer">
                 WebForce3
               </a>{' '}
               avec Social Builder  à Paris 18
             </AboutLittleTitle>
             <div>
-              Formation Full stack développeur en 4 mois, preparation du "Titre
+              Formation Full-stack développeur en 4 mois, preparation du "Titre
               de developpeur web et mobile" (RNCP Bac+2), apprentissage :
               <ul>
                 <li>HTML / CSS</li>
@@ -120,44 +99,21 @@ export const Formation = () => {
 
           <FormationText>
             <AboutLittleTitle>
-              Septembre 2018 à février 2019 (5mois)<br></br>
-              <a href="https://www.wildcodeschool.com/fr-FR" target="_blank">
+              Septembre 2018 à février 2019<br></br>
+              <a href="https://www.wildcodeschool.com/fr-FR" target="_blank" rel="noopener noreferrer">
                 Wild Code School
               </a>
                à Paris
             </AboutLittleTitle>
             <div>
-              Formation Full stack développeur en 5 mois, apprentissage :
+              Formation Full-stack développeur en 5 mois, apprentissage :
               <ul>
                 <li>HTML / CSS</li>
                 <li>React</li>
                 <li>Node</li>
                 <li>MySQL</li>
               </ul>
-              3 projets effectués en groupe de 5 :
-              <li>Biographie d'un photographe (HTML / CSS) </li>
-              <li>Cookie Movie (React)</li>
-              <li>
-                Le Conteur Digital (blog de récit de marques pour les
-                entreprises) avec Mathias Savary (React/Node/MySQL)
-              </li>
             </div>
-          </FormationText>
-
-          <FormationText>
-            <AboutLittleTitle> 2010 </AboutLittleTitle>{' '}
-            <p>
-              Mention Complémentaire Accueil dans les transports (BAC+1) au CFA
-              Camas, Tremblay en France (93)
-            </p>
-          </FormationText>
-
-          <FormationText>
-            <AboutLittleTitle> 2007 </AboutLittleTitle>{' '}
-            <p>
-              Niveau BTS assistant de gestion PME-PMI au lycée Carcado-Saisseval
-              à Paris (6)
-            </p>
           </FormationText>
         </FormationDiv>
       </FormationContainer>

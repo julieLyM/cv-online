@@ -4,24 +4,25 @@ import {
   MenuContainer,
   MenuPicture,
   MenuBlocLink,
+  MenuBody,
   GreenLink,
   GreenLinkBottom,
 } from './style/menuStyle';
 
 import pic from './style/image/pic.png';
-import cv from './style/image/cv-julielyminh.pdf';
+import cv from './style/image/cv.pdf';
 
 export default class Menu extends Component {
   render() {
     return (
-      <div>
+      <MenuBody>
         <Link to="/">
           <MenuPicture src={pic} alt="logo" />
         </Link>
         <MenuContainer>
           <MenuBlocLink>
-            <GreenLink to="/About">About</GreenLink>
-            <GreenLink to="/Portfolio">Works</GreenLink>
+            <GreenLink to="/About">A propos</GreenLink>
+            <GreenLink to="/Portfolio">Projets</GreenLink>
             <GreenLink to="/Formation">Formation</GreenLink>
           </MenuBlocLink>
 
@@ -29,7 +30,11 @@ export default class Menu extends Component {
             <GreenLinkBottom target="_top" href="mailto:julielyminh@gmail.com">
               Email
             </GreenLinkBottom>
-            <GreenLinkBottom target="_top" href={cv}>
+            <GreenLinkBottom 
+              href={cv}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               CV
             </GreenLinkBottom>
             <GreenLinkBottom
@@ -46,7 +51,7 @@ export default class Menu extends Component {
             </GreenLinkBottom>
           </MenuBlocLink>
         </MenuContainer>
-      </div>
+      </MenuBody>
     );
   }
 }

@@ -17,10 +17,13 @@ export const FormationBloc = styled.div`
   width: 50%;
   margin: 10px;
   border-radius: 30px;
+  padding: 10px 0;
+
   @media (${device.tablet}) {
     width: 100%;
-    margin: 5% 0;
+    margin: 5% 0;;
   }
+
 `;
 
 export const FormationDiv = styled.div`
@@ -32,6 +35,9 @@ export const FormationDiv = styled.div`
   height: 50%;
   @media (${device.tablet}) {
     width: 100%;
+  }
+  @media (${device.mobileL}) {
+    width: 90%;
   }
 `;
 
@@ -49,3 +55,7 @@ export const FormationText = styled.div`
     font-size: 14px;
   }
 `;
+export const FormatoinLi = styled.li`
+list-style-type: circle;
+font-weight: 900;
+`
