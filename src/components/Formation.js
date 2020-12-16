@@ -91,7 +91,7 @@ export const Formation = () => {
                 <li>HTML / CSS</li>
                 <li>Javascript (Angular)</li>
                 <li>Wordpress</li>
-                <li>PHP (Symphony et Laravel)</li>
+                <li>PHP (Symfony)</li>
                 <li>MySQL</li>
               </ul>
             </div>

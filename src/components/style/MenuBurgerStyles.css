@@ -29,17 +29,23 @@ body {
   color: white;
 }
 
+.bm-item:focus {
+  text-decoration: none;
+
+}
+
+
 .bm-burger-button {
   position: fixed;
   width: 36px;
   height: 30px;
-  right: 36px;
+  right: 20px;
   top: 36px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: grey;
 }
 
 /* Position and sizing of clickable cross button */
@@ -55,7 +61,7 @@ body {
 
 /* General sidebar styles */
 .bm-menu {
-  background: #000;
+  background: rgba(355, 355, 355, 0.8);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -74,7 +80,6 @@ body {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
-
 
 @media screen and (max-width: 1024px) {
   .burger {

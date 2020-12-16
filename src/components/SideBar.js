@@ -1,20 +1,51 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
+import { Link } from 'react-router-dom';
+import {
+  MenuPicture,
+  GreenLink,
+  GreenLinkBottom
+} from './style/menuStyle';
+
+import pic from './style/image/pic.png';
+import cv from './style/image/cv.pdf';
 
 export class SideBar extends React.Component {
   showSettings (event) {
     event.preventDefault();
-    
   }
  
   render () {
-    // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
     return (
       <Menu>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+        <Link to="/">
+          <MenuPicture src={pic} alt="logo" />
+        </Link>
+        <GreenLink to="/About">A propos</GreenLink>
+            <GreenLink to="/Portfolio">Projets</GreenLink>
+            <GreenLink to="/Formation">Formation</GreenLink>
+            <GreenLinkBottom
+              href={'https://github.com/julieLyM'}
+              target="_blank"
+            >
+              Github
+            </GreenLinkBottom>
+            <GreenLinkBottom
+              href={'https://www.linkedin.com/in/julie-ly-minh-324212171/'}
+              target="_blank"
+            >
+              LinkedIn
+            </GreenLinkBottom>
+            <GreenLinkBottom 
+              href={cv}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CV
+            </GreenLinkBottom>
+            <GreenLinkBottom target="_top" href="mailto:julielyminh@gmail.com">
+              Email
+            </GreenLinkBottom>
       </Menu>
     );
   }

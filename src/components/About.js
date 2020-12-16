@@ -33,9 +33,8 @@ export const About = () => {
           Cela fait depuis 2 ans que j'ai mis les pieds dans le développement
           web, j'ai commencé par de l'intégration HTML5 et CSS3, puis je me suis
           spécialisée sur le langage JavaScript. Je travaille notamment sur les
-          librairies ReactJs et NodeJs (express). Aujourd'hui, je suis en
-          formation sur PHP (Symphony) et WordPress pour toujours être à jour
-          dans mes compétences !
+          ReactJs et NodeJs (express). Aujourd'hui, je suis en formation pour
+          monter en compétence sur PHP (Symfony) et WordPress.
         </AboutSimpleText>
       </AboutBloc>
       <Point>...</Point>

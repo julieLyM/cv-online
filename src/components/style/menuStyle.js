@@ -3,9 +3,7 @@ import { GREEN } from './colors';
 import { Link } from 'react-router-dom';
 import { device } from './mediaQuerries';
 
-
-export const MenuBody = styled.div`
-`;
+export const MenuBody = styled.div``;
 
 export const MenuContainer = styled.div`
   display: flex;
