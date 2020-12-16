@@ -22,7 +22,7 @@ export const About = () => {
   return (
     <AboutContainer>
       <AboutBloc>
-        <AboutSubTitle>A propos</AboutSubTitle>
+        <AboutSubTitle id="action-1">A propos</AboutSubTitle>
         <AboutSimpleText>
           Hello, je suis Développeuse full-stack junior en reconversion
           professionnelle basée en région parisienne (77) mais également en
@@ -33,7 +33,9 @@ export const About = () => {
           Cela fait depuis 2 ans que j'ai mis les pieds dans le développement
           web, j'ai commencé par de l'intégration HTML5 et CSS3, puis je me suis
           spécialisée sur le langage JavaScript. Je travaille notamment sur les
-          librairies ReactJs et NodeJs (express).
+          librairies ReactJs et NodeJs (express). Aujourd'hui, je suis en
+          formation sur PHP (Symphony) et WordPress pour toujours être à jour
+          dans mes compétences !
         </AboutSimpleText>
       </AboutBloc>
       <Point>...</Point>
