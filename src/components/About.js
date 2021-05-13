@@ -24,22 +24,15 @@ export const About = () => {
       <AboutBloc>
         <AboutSubTitle id="action-1">A propos</AboutSubTitle>
         <AboutSimpleText>
-          Hello, je suis Développeuse full-stack junior en reconversion
-          professionnelle basée en région parisienne (77) mais également en
-          Loire-Atlantique (44).
-        </AboutSimpleText>
-
-        <AboutSimpleText>
-          Cela fait depuis 2 ans que j'ai mis les pieds dans le développement
-          web, j'ai commencé par de l'intégration HTML5 et CSS3, puis je me suis
-          spécialisée sur le langage JavaScript. Je travaille notamment sur les
-          ReactJs et NodeJs (express). Aujourd'hui, je suis en formation pour
-          monter en compétence sur PHP (Symfony) et WordPress.
+          Hello, je suis Développeuse web depuis 2 ans basée dans la belle
+          région de la Loire-Atlantique (44). Je suis spécialisée sur le langage
+          JavaScript. Je travaille notamment sur ReactJs et NodeJs (express).
+          Aujourd'hui, je suis en train de monter en compétences sur PHP
+          (Symfony) et WordPress.
         </AboutSimpleText>
       </AboutBloc>
-      <Point>...</Point>
-      <p></p>
-
+      <br></br>
+      <br></br>
       <AboutBloc>
         <AboutSubTitle> Pour plus d'informations</AboutSubTitle>
         <AboutPersonalDiv>
@@ -53,8 +46,7 @@ export const About = () => {
             <AboutLittleTitle>Prénom </AboutLittleTitle>
             <AboutText>Julie </AboutText>
             <AboutLittleTitle>Mobilité </AboutLittleTitle>
-            <AboutText>Région Parisienne /</AboutText>{' '}
-            <AboutText>Nantaise </AboutText>
+            <AboutText>Saint-Nazaire/Nantes</AboutText>
           </AboutPersonalDivCol1>
 
           <AboutPersonalDivCol2>
@@ -69,8 +61,8 @@ export const About = () => {
           </AboutPersonalDivCol2>
         </AboutPersonalDiv>
       </AboutBloc>
-
-      <Point>...</Point>
+      <br></br>
+      <br></br>{' '}
     </AboutContainer>
   );
 };

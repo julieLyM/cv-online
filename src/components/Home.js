@@ -10,10 +10,9 @@ export default class Home extends Component {
     return (
       <HomeContainer>
         <HomePicture src={land} alt="" />
-
         <About />
-        <Formation />
         <Work />
+        <Formation />
       </HomeContainer>
     );
   }

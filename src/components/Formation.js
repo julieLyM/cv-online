@@ -4,7 +4,7 @@ import {
   FormationBloc,
   FormationDiv,
   FormationText,
-  FormatoinLi
+  FormatoinLi,
 } from './style/formationStyle';
 
 import { AboutSubTitle, AboutLittleTitle } from './style/aboutStyle';
@@ -18,12 +18,36 @@ export const Formation = () => {
         <FormationBloc>
           <AboutSubTitle> EXPÉRIENCE PROFESSIONNELLE</AboutSubTitle>
           <FormationText>
-            <AboutLittleTitle>
-              Octobre 2019 - mars 2020
-            </AboutLittleTitle>
+            <AboutLittleTitle>Mars à aujourd'hui</AboutLittleTitle>
+            <p>
+              Stage en tant que développeuse web à{' '}
+              <a
+                href="https://www.cmantika.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CMANTIKA-HORS LIGNE
+              </a>{' '}
+              à Guérande (44)
+            </p>
+            <ul>
+              <FormatoinLi>Front-end :</FormatoinLi>
+              <li>Wordpress / Drupal 8</li>
+              <FormatoinLi>Back-end :</FormatoinLi>
+              <li>PHP (symfony)</li>
+            </ul>
+            Projet client : <p>A venir :)</p>
+          </FormationText>
+
+          <FormationText>
+            <AboutLittleTitle>Octobre 2019 - mars 2020</AboutLittleTitle>
             <p>
               Développeuse full-stack Javascript à{' '}
-              <a href="https://www.stackerine.com/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.stackerine.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 STACKERINE
               </a>
               , Sarcelles (95){' '}
@@ -42,7 +66,8 @@ export const Formation = () => {
                 <li>Postgres</li>
                 <li>MongoDB</li>
                 <li>SQL</li>
-                <li>GraphQL & Appollo</li><br></br>
+                <li>GraphQL & Appollo</li>
+                <br></br>
                 <FormatoinLi>DevOps : </FormatoinLi>
                 <li>Docker / circleCI</li>
               </ul>
@@ -52,20 +77,21 @@ export const Formation = () => {
           <FormationText>
             <AboutLittleTitle>Février à juillet 2019</AboutLittleTitle>
             <p>
-              Stage de 6 mois en tant que développeuse web full-stack à BLUEANCHOR.IO, à
-              Paris 19ème.
+              Stage de 6 mois en tant que développeuse web full-stack à
+              BLUEANCHOR.IO, à Paris 19ème.
             </p>
             <ul>
-              <FormatoinLi>
-                Front-end :              
-              </FormatoinLi>
-               <li>Angular 6/7 & Ionic 3/4</li> 
-              <FormatoinLi>
-                Back-end :               
-              </FormatoinLi>
-                <li>NestJs & MongoDB</li>
+              <FormatoinLi>Front-end :</FormatoinLi>
+              <li>Angular 6/7 & Ionic 3/4</li>
+              <FormatoinLi>Back-end :</FormatoinLi>
+              <li>NestJs & MongoDB</li>
             </ul>
-            Projet client : <a href="https://noubliejamais.fr/application/" target="_blank" rel="noopener noreferrer">
+            Projet client :{' '}
+            <a
+              href="https://noubliejamais.fr/application/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               N'oublie Jamais
             </a>{' '}
           </FormationText>
@@ -78,8 +104,12 @@ export const Formation = () => {
 
           <FormationText>
             <AboutLittleTitle>
-              Novembre 2020 à aujourd'hui<br></br>
-              <a href="https://www.wf3.fr" target="_blank" rel="noopener noreferrer">
+              Novembre 2020 à mars 2021<br></br>
+              <a
+                href="https://www.wf3.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 WebForce3
               </a>{' '}
               avec Social Builder  à Paris 18
@@ -100,7 +130,11 @@ export const Formation = () => {
           <FormationText>
             <AboutLittleTitle>
               Septembre 2018 à février 2019<br></br>
-              <a href="https://www.wildcodeschool.com/fr-FR" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.wildcodeschool.com/fr-FR"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Wild Code School
               </a>
                à Paris
@@ -117,7 +151,8 @@ export const Formation = () => {
           </FormationText>
         </FormationDiv>
       </FormationContainer>
-      <Point>...</Point>
+      <br></br>
+      <br></br>
     </div>
   );
 };
