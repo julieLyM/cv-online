@@ -9,7 +9,6 @@ import {
 
 import { AboutSubTitle, AboutLittleTitle } from './style/aboutStyle';
 
-import { Point } from './style/workStyle';
 
 export const Formation = () => {
   return (

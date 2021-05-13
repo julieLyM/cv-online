@@ -14,7 +14,6 @@ import {
   AboutText,
 } from './style/aboutStyle';
 
-import { Point } from './style/workStyle';
 
 import me from './style/image/me.jpg';
 
