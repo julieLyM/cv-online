@@ -13,7 +13,7 @@ export const Work = () => {
     <div>
       <WorkTitle>Mes Projets</WorkTitle>
       <WorkContainer>
-        <WorkBloc>
+        {/* <WorkBloc>
           <AboutSubTitle>Cat Mash</AboutSubTitle>
           <a
             href="https://catmash-application.herokuapp.com/"
@@ -39,6 +39,21 @@ export const Work = () => {
             <AboutSimpleText>
               Presentation des personnages de harry potter et un quizz <br />
               (React Hooks / styled-components / NodeJs(Express) )
+            </AboutSimpleText>
+          </a>
+        </WorkBloc> */}
+
+        <WorkBloc>
+          <AboutSubTitle>Jade Beauty</AboutSubTitle>
+          <a
+            href="http://julielym.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Img src="#" />
+            <AboutSimpleText>
+              Site E-commerce sur un salon de beauté (fictif)<br />
+              (symfony 5 / Bootstrap)
             </AboutSimpleText>
           </a>
         </WorkBloc>
