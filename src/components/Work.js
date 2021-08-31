@@ -2,11 +2,12 @@ import React from 'react';
 import { WorkContainer, WorkBloc, WorkTitle, Img } from './style/workStyle';
 import { AboutSimpleText, AboutSubTitle } from './style/aboutStyle';
 
-import cat from './style/image/cat.png';
+// import cat from './style/image/cat.png';
 import movieDB from './style/image/movieDB.png';
-import HP from './style/image/HP.png';
+// import HP from './style/image/HP.png';
 import marvel from './style/image/marvel.png';
 import studio from './style/image/studio.png'
+import jadeb from './style/image/jadebeauty.png'
 
 export const Work = () => {
   return (
@@ -50,7 +51,7 @@ export const Work = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Img src="#" />
+            <Img src={jadeb} />
             <AboutSimpleText>
               Site E-commerce sur un salon de beauté (fictif)<br />
               (symfony 5 / Bootstrap)
