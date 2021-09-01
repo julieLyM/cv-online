@@ -2,66 +2,76 @@ import React from 'react';
 
 import {
   AboutContainer,
-  AboutSimpleText,
-  AboutBloc,
-  AboutSubTitle,
-  AboutLittleTitle,
-  AboutPicture,
-  AboutPersonalDiv,
-  AboutPersonalDivColPic,
-  AboutPersonalDivCol1,
-  AboutPersonalDivCol2,
-  AboutText,
+  AboutText
 } from './style/aboutStyle';
+import Badge from 'react-bootstrap/Badge';
+import Figure from 'react-bootstrap/Figure';
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
+import ListGroupItem from 'react-bootstrap/ListGroupItem';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
 
 
 import me from './style/image/me.jpg';
 
 export const About = () => {
   return (
+
+<Container style={{marginTop:'10%'}}>
+
+  <Row>
+    <Col md={4}> 
     <AboutContainer>
-      <AboutBloc>
-        <AboutSubTitle id="action-1">A propos</AboutSubTitle>
-        <AboutSimpleText>
-          Hello, je suis Développeuse web depuis 2 ans basée dans la belle
-          région de la Loire-Atlantique (44). Je suis spécialisée sur le langage
-          JavaScript. Je travaille notamment sur ReactJs et NodeJs (express).
-          Aujourd'hui, je suis en train de monter en compétences sur PHP
-          (Symfony) et WordPress.
-        </AboutSimpleText>
-      </AboutBloc>
-      <br></br>
-      <br></br>
-      <AboutBloc>
-        <AboutSubTitle> Pour plus d'informations</AboutSubTitle>
-        <AboutPersonalDiv>
-          <AboutPersonalDivColPic>
-            <AboutPicture src={me} alt="me" />
-          </AboutPersonalDivColPic>
-
-          <AboutPersonalDivCol1>
-            <AboutLittleTitle>Nom </AboutLittleTitle>
-            <AboutText>LY-MINH</AboutText>
-            <AboutLittleTitle>Prénom </AboutLittleTitle>
-            <AboutText>Julie </AboutText>
-            <AboutLittleTitle>Mobilité </AboutLittleTitle>
-            <AboutText>Saint-Nazaire/Nantes</AboutText>
-          </AboutPersonalDivCol1>
-
-          <AboutPersonalDivCol2>
-            <AboutLittleTitle>Tel </AboutLittleTitle>
-            <AboutText>06-50-00-07-03</AboutText>
-
-            <AboutLittleTitle>Email </AboutLittleTitle>
-            <AboutText>julielyminh@gmail.com</AboutText>
-
-            <AboutLittleTitle>Discord </AboutLittleTitle>
-            <AboutText>julieeee#6560 </AboutText>
-          </AboutPersonalDivCol2>
-        </AboutPersonalDiv>
-      </AboutBloc>
-      <br></br>
-      <br></br>{' '}
+    <AboutText>
+        <h2>
+          <Badge pill bg="warning">
+                A propos :
+          </Badge>   
+        </h2> 
+          Bienvenue chez moi ! Bon, si vous êtes là c'est parce que vous êtes interessé(e) par mon profil.
+          Vous trouverez toutes les informations me concernant.
+      </AboutText>
     </AboutContainer>
+
+      </Col>
+
+
+    <Col md={{ span: 2, offset: 2 }} >
+    
+    <Card style={{ width: '28rem',marginBottom:'25%',borderRadius:'30px' }}>
+          <AboutText>
+      <Card.Body>
+
+        <Card.Title>  
+          <Badge pill bg="warning">   
+            En resumé :
+          </Badge>   
+        </Card.Title>
+        <Figure.Image
+          width={171}
+          height={180}
+          alt="171x180"
+          src={me} 
+        />
+        <Card.Text>
+                Je suis développeuse web depuis 3 ans, je suis axée sur le front que le back. Pourquoi ? Parce que j'ai commencé par le front-end (avec JavaScript puis React et ensuite un peu de back avec NodeJS...). 
+              Et maintenant, je pratique du PHP avec le framework Symfony et du MySQL. 
+        </Card.Text>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroupItem>LY-MINH Julie</ListGroupItem>
+        <ListGroupItem>Saint-Nazaire - Nantes</ListGroupItem>
+        <ListGroupItem>06-50-00-07-03</ListGroupItem>
+        <ListGroupItem>julielyminh@gmail.com</ListGroupItem>
+      </ListGroup>
+          </AboutText>
+
+    </Card></Col>
+  </Row>
+  </Container>
+
+
   );
 };

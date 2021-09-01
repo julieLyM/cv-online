@@ -6,7 +6,8 @@ export const WorkContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   border-radius: 30px;
-  padding: 3%;
+  padding: 5% 3%;
+
 `;
 
 export const WorkBloc = styled.div`
@@ -37,6 +38,8 @@ export const WorkTitle = styled.p`
   text-align: center;
   font-weight: bold;
   color: ${DARK_GREEN};
+  margin-top: 10%;
+
 `;
 
 export const Point = styled.p`

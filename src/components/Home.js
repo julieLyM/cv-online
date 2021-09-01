@@ -9,7 +9,7 @@ export default class Home extends Component {
   render() {
     return (
       <HomeContainer>
-        <HomePicture src={land} alt="" />
+        <HomePicture src={land} alt="logo"/>
         <About />
         <Work />
         <Formation />

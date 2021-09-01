@@ -3,15 +3,14 @@ import { GREEN } from './colors';
 import { device } from './mediaQuerries';
 
 export const AboutContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 30px;
-  padding: 3%;
+ padding: 5%;
+ margin-bottom: 15%;
+ background-color: white;
+ margin-top:10%;
+ border-radius:30px;
 `;
 
 export const AboutBloc = styled.div`
-  background-color: white;
   width: 60%;
   padding: 3%;
 
@@ -28,7 +27,7 @@ export const AboutBloc = styled.div`
 `;
 
 export const AboutSubTitle = styled.p`
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
   color: ${GREEN};
@@ -39,7 +38,7 @@ export const AboutSubTitle = styled.p`
 `;
 
 export const AboutLittleTitle = styled.span`
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;

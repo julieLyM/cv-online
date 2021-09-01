@@ -34,8 +34,8 @@ export const HomeSubtitle = styled.p`
 `;
 
 export const HomePicture = styled.img`
-  @media (${device.mobileL}) {
-    width: 280px;
-    height: 350px;
+ margin-top: 10%;
+ @media (${device.mobileL}) {
+    width: 100%;
   }
 `;

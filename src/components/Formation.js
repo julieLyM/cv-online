@@ -9,15 +9,14 @@ import {
 
 import { AboutSubTitle, AboutLittleTitle } from './style/aboutStyle';
 
-
 export const Formation = () => {
   return (
-    <div>
+    <div style={{marginTop:'10%'}}>
       <FormationContainer>
         <FormationBloc>
           <AboutSubTitle> EXPÉRIENCE PROFESSIONNELLE</AboutSubTitle>
           <FormationText>
-            <AboutLittleTitle>Mars à aujourd'hui</AboutLittleTitle>
+            <AboutLittleTitle>Mars 2021 à aujourd'hui</AboutLittleTitle>
             <p>
               Stage en tant que développeuse web à{' '}
               <a
@@ -33,7 +32,7 @@ export const Formation = () => {
               <FormatoinLi>Front-end :</FormatoinLi>
               <li>Wordpress / Drupal 8</li>
               <FormatoinLi>Back-end :</FormatoinLi>
-              <li>PHP (symfony)</li>
+              <li>PHP (symfony 4/5)</li>
             </ul>
             Projet client : <p>A venir :)</p>
           </FormationText>
