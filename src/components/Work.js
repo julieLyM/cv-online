@@ -8,6 +8,7 @@ import movieDB from './style/image/movieDB.png';
 import marvel from './style/image/marvel.png';
 import studio from './style/image/studio.png'
 import jadeb from './style/image/jadebeauty.png'
+import viet from './style/image/lepetitviet.png'
 
 export const Work = () => {
   return (
@@ -43,6 +44,21 @@ export const Work = () => {
             </AboutSimpleText>
           </a>
         </WorkBloc> */}
+
+        <WorkBloc>
+          <AboutSubTitle>Le Petit Vietnamien</AboutSubTitle>
+          <a
+            href="http://www.lepetitviet.julielym.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Img src={viet} />
+            <AboutSimpleText>
+              Site E-commerce / vitrine d'un restaurant Vietnamien à Aulnay-Sous-Bois (en test)
+              (symfony 5 / Bootstrap)
+            </AboutSimpleText>
+          </a>
+        </WorkBloc>
 
         <WorkBloc>
           <AboutSubTitle>Jade Beauty</AboutSubTitle>
